@@ -1,0 +1,13 @@
+.button-home {
+  width: 10em;
+  height: 4em;
+  font-weight: 700;
+  margin: 4em;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+

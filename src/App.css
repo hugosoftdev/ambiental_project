@@ -1,0 +1,54 @@
+.home-background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("background.jpeg");
+  opacity: 0.4;
+  z-index: -1;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.background-body {
+   height: 90vh;
+   width: 100vw;
+}
+
+.home-brand {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.principal-title {
+  font-size: 8em;
+  color: green;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.subtitle {
+  font-size: 3em;
+  color: white;
+  font-weight: 700;
+}
+
+body {
+  background-color: black;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
